@@ -1,0 +1,22 @@
+img {
+  width: 200px;
+  height: 300px;
+  margin-bottom: 5%;
+}
+
+.card {
+  display: flex;
+  justify-content: flex-start;
+  align-content: space-between;
+  flex-wrap: wrap;
+  margin: 2%;
+}
+
+.space {
+  text-align: center;
+  margin: 3%;
+}
+
+.space a {
+  text-decoration: none;
+}

@@ -1,0 +1,7 @@
+<div class="card">
+  <div *ngFor="let m of movies" class="space">
+    <h3>ROOM: {{m.room}}</h3>
+    <img [src]="m.poster"> <br>
+    <a [routerLink]="['/movie',m.id]">{{m.title}}</a>
+  </div>
+</div>

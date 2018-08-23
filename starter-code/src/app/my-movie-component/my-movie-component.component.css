@@ -1,0 +1,52 @@
+img {
+  width: 300px;
+  height: 500px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10% 0 0 2%;
+}
+
+.content ul {
+  list-style-type: none;
+}
+
+.content .wrapper {
+  display: flex;
+  margin: 4% 0 0 3%;
+  flex-direction: column;
+  align-self: flex-end;
+  justify-self: flex-end; 
+}
+
+.content div {
+  display: flex;
+  align-items: flex-start;
+  margin: 1%;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+  height: 600px;
+  display: flex;
+}
+
+.wrapper ul {
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+  padding: 2% 0 0 0;
+}
+
+button {
+  display: flex;
+  padding: 0.5% 2%;
+  margin: 2% auto 0 auto;
+  background-color: darkblue;
+  color: white;
+  border: solid darkslateblue 1px;
+}
